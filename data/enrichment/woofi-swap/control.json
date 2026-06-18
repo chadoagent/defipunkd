@@ -1,7 +1,7 @@
 {
   "slug": "woofi-swap",
-  "adapter_commit": "a238be25a7a40a6b3809c110a7f152218124adac",
-  "fetched_at": "2026-04-26T17:49:12.972Z",
+  "adapter_commit": "683d36908b5bca5f16752d174c03d928db179af1",
+  "fetched_at": "2026-06-18T11:08:45.103Z",
   "addresses": [
     {
       "chain": "arbitrum",
@@ -10,18 +10,17 @@
       "self_is_safe": false,
       "self_safe": null,
       "self_not_safe_reason": null,
-      "owner": "0xb12d74ac80e3b449f1a491c16208c4431020695c",
+      "owner": null,
       "owner_is_safe": false,
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
-        "owner_safe": true
+        "owner_safe": false
       },
       "warnings": [
-        "safe http 429",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -49,18 +48,17 @@
       "self_is_safe": false,
       "self_safe": null,
       "self_not_safe_reason": null,
-      "owner": "0xb12d74ac80e3b449f1a491c16208c4431020695c",
+      "owner": null,
       "owner_is_safe": false,
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
-        "owner_safe": true
+        "owner_safe": false
       },
       "warnings": [
-        "safe http 429",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -106,18 +104,17 @@
       "self_is_safe": false,
       "self_safe": null,
       "self_not_safe_reason": null,
-      "owner": "0xb12d74ac80e3b449f1a491c16208c4431020695c",
+      "owner": null,
       "owner_is_safe": false,
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
-        "owner_safe": true
+        "owner_safe": false
       },
       "warnings": [
-        "safe http 429",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -150,12 +147,12 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
       "warnings": [
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -247,20 +244,17 @@
       "context": "BTC_b",
       "self_is_safe": false,
       "self_safe": null,
-      "self_not_safe_reason": null,
+      "self_not_safe_reason": "not_a_safe",
       "owner": null,
       "owner_is_safe": false,
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
-      "warnings": [
-        "owner status=0: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis",
-        "safe http 429"
-      ]
+      "warnings": []
     },
     {
       "chain": "avax",
@@ -274,13 +268,12 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
       "warnings": [
-        "owner status=0: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -315,13 +308,12 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
       "warnings": [
-        "owner status=0: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -356,13 +348,12 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
       "warnings": [
-        "owner status=0: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -417,13 +408,12 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
       "warnings": [
-        "owner status=0: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -458,13 +448,12 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
       "warnings": [
-        "owner status=0: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -683,13 +672,12 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
       "warnings": [
-        "owner status=0: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -704,13 +692,12 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
       "warnings": [
-        "owner status=0: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -725,13 +712,12 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
       "warnings": [
-        "owner status=0: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -786,13 +772,12 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
       "warnings": [
-        "owner status=0: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -887,13 +872,11 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
-      "warnings": [
-        "owner http 504"
-      ]
+      "warnings": []
     },
     {
       "chain": "era",
@@ -907,13 +890,11 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
-      "warnings": [
-        "owner http 504"
-      ]
+      "warnings": []
     },
     {
       "chain": "era",
@@ -927,13 +908,11 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
-      "warnings": [
-        "owner http 504"
-      ]
+      "warnings": []
     },
     {
       "chain": "era",
@@ -947,13 +926,12 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
       "warnings": [
-        "owner http 504",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -968,12 +946,12 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
       "warnings": [
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -1060,18 +1038,17 @@
       "self_is_safe": false,
       "self_safe": null,
       "self_not_safe_reason": null,
-      "owner": "0x7c8a5d20b22ce9b369c043a3e0091b5575b732d9",
+      "owner": null,
       "owner_is_safe": false,
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
-        "owner_safe": true
+        "owner_safe": false
       },
       "warnings": [
-        "safe http 429",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -1709,18 +1686,17 @@
       "self_is_safe": false,
       "self_safe": null,
       "self_not_safe_reason": null,
-      "owner": "0xfcaed824f44fd8689a996157d7af0354903c0c9b",
+      "owner": null,
       "owner_is_safe": false,
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
-        "owner_safe": true
+        "owner_safe": false
       },
       "warnings": [
-        "safe http 429",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -1823,18 +1799,17 @@
       "self_is_safe": false,
       "self_safe": null,
       "self_not_safe_reason": null,
-      "owner": "0x54bd11a62f6cc41e40e231fa0b709482cffd21ce",
+      "owner": null,
       "owner_is_safe": false,
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
-        "owner_safe": true
+        "owner_safe": false
       },
       "warnings": [
-        "safe http 429",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -2165,13 +2140,12 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
       "warnings": [
-        "owner status=0: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -2226,13 +2200,12 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
       "warnings": [
-        "owner status=0: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -2267,13 +2240,12 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
       "warnings": [
-        "owner status=0: Free API access is not supported for this chain. Please upgrade your api plan for full chain coverage. https://etherscan.io/apis",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -2326,12 +2298,12 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
       "warnings": [
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -2395,18 +2367,17 @@
       "self_is_safe": false,
       "self_safe": null,
       "self_not_safe_reason": null,
-      "owner": "0x35187dd809a25034ba384c7b476453407b3a4c8c",
+      "owner": null,
       "owner_is_safe": false,
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
-        "owner_safe": true
+        "owner_safe": false
       },
       "warnings": [
-        "safe http 429",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -2434,18 +2405,17 @@
       "self_is_safe": false,
       "self_safe": null,
       "self_not_safe_reason": null,
-      "owner": "0x35187dd809a25034ba384c7b476453407b3a4c8c",
+      "owner": null,
       "owner_is_safe": false,
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
-        "owner_safe": true
+        "owner_safe": false
       },
       "warnings": [
-        "safe http 429",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -2455,18 +2425,17 @@
       "self_is_safe": false,
       "self_safe": null,
       "self_not_safe_reason": null,
-      "owner": "0x35187dd809a25034ba384c7b476453407b3a4c8c",
+      "owner": null,
       "owner_is_safe": false,
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
-        "owner_safe": true
+        "owner_safe": false
       },
       "warnings": [
-        "safe http 429",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -2519,13 +2488,12 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
       "warnings": [
-        "owner status=0: Missing or unsupported chainid parameter (required for v2 api), please see https://api.etherscan.io/v2/chainlist for the list of supported chainids",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -2540,13 +2508,12 @@
       "owner_safe": null,
       "owner_not_safe_reason": null,
       "fetched": {
-        "owner": true,
+        "owner": false,
         "self": true,
         "owner_safe": false
       },
       "warnings": [
-        "owner status=0: Missing or unsupported chainid parameter (required for v2 api), please see https://api.etherscan.io/v2/chainlist for the list of supported chainids",
-        "safe http 429"
+        "safe http 403"
       ]
     },
     {
@@ -2993,7 +2960,47 @@
     },
     {
       "chain": "unwrapUniswapV4NFTs",
+      "address": "0x5b7ec4a94ff9bedb700fb82ab09d5846972f4016",
+      "context": "nftAddress",
+      "self_is_safe": false,
+      "self_safe": null,
+      "self_not_safe_reason": "skipped",
+      "owner": null,
+      "owner_is_safe": false,
+      "owner_safe": null,
+      "owner_not_safe_reason": null,
+      "fetched": {
+        "owner": false,
+        "self": false,
+        "owner_safe": false
+      },
+      "warnings": [
+        "skipped: chain \"unwrapUniswapV4NFTs\" not supported"
+      ]
+    },
+    {
+      "chain": "unwrapUniswapV4NFTs",
       "address": "0x76fd297e2d437cd7f76d50f01afe6160f86e9990",
+      "context": "stateViewer",
+      "self_is_safe": false,
+      "self_safe": null,
+      "self_not_safe_reason": "skipped",
+      "owner": null,
+      "owner_is_safe": false,
+      "owner_safe": null,
+      "owner_not_safe_reason": null,
+      "fetched": {
+        "owner": false,
+        "self": false,
+        "owner_safe": false
+      },
+      "warnings": [
+        "skipped: chain \"unwrapUniswapV4NFTs\" not supported"
+      ]
+    },
+    {
+      "chain": "unwrapUniswapV4NFTs",
+      "address": "0x77395f3b2e73ae90843717371294fa97cc419d64",
       "context": "stateViewer",
       "self_is_safe": false,
       "self_safe": null,
@@ -3193,12 +3200,12 @@
     }
   ],
   "summary": {
-    "total": 155,
-    "owners_resolved": 30,
+    "total": 157,
+    "owners_resolved": 21,
     "self_is_safe": 0,
     "owner_is_safe": 6,
-    "owner_resolved_not_safe": 24,
+    "owner_resolved_not_safe": 15,
     "unique_owner_safes": 6,
-    "unique_owners": 23
+    "unique_owners": 18
   }
 }
