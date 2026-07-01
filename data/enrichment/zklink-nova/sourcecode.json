@@ -1,8 +1,8 @@
 {
   "slug": "zklink-nova",
-  "adapter_commit": "a238be25a7a40a6b3809c110a7f152218124adac",
-  "fetched_at": "2026-04-26T06:54:44.386Z",
-  "etherscan_v": "v2",
+  "adapter_commit": "683d36908b5bca5f16752d174c03d928db179af1",
+  "fetched_at": "2026-07-01T09:44:16.170Z",
+  "etherscan_v": null,
   "addresses": [
     {
       "chain": "arbitrum",
@@ -135,9 +135,7 @@
         "fetched": true,
         "status": null
       },
-      "warnings": [
-        "sourcify http 500"
-      ]
+      "warnings": []
     },
     {
       "chain": "berachain",
@@ -156,9 +154,7 @@
         "fetched": true,
         "status": null
       },
-      "warnings": [
-        "sourcify http 500"
-      ]
+      "warnings": []
     },
     {
       "chain": "blast",
@@ -297,132 +293,78 @@
       "chain": "era",
       "address": "0x0000000000000000000000000000000000000000",
       "context": "null",
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": null
+        "status": "false"
       },
       "warnings": [
-        "etherscan http 504",
-        "sourcify http 500"
+        "etherscan skipped: ETHERSCAN_API_KEY not set"
       ]
     },
     {
       "chain": "era",
       "address": "0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4",
       "context": "USDC",
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": null
+        "status": "false"
       },
       "warnings": [
-        "etherscan http 504",
-        "sourcify http 500"
+        "etherscan skipped: ETHERSCAN_API_KEY not set"
       ]
     },
     {
       "chain": "era",
       "address": "0x493257fd37edb34451f62edf8d2a0c418852ba4c",
       "context": "USDT",
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": null
+        "status": "false"
       },
       "warnings": [
-        "etherscan http 504",
-        "sourcify http 500"
+        "etherscan skipped: ETHERSCAN_API_KEY not set"
       ]
     },
     {
       "chain": "era",
       "address": "0xab3ddb86072a35d74bed49aa0f9210098ebf2d08",
       "context": null,
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": null
+        "status": "false"
       },
       "warnings": [
-        "etherscan http 504",
-        "sourcify http 500"
+        "etherscan skipped: ETHERSCAN_API_KEY not set"
       ]
     },
     {
       "chain": "era",
       "address": "0xafe8c7cf33ed0fee179dff20ae174c660883273a",
       "context": null,
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": null
+        "status": "false"
       },
       "warnings": [
-        "etherscan http 504",
-        "sourcify http 500"
+        "etherscan skipped: ETHERSCAN_API_KEY not set"
       ]
     },
     {
       "chain": "era",
       "address": "0xbbeb516fb02a01611cbbe0453fe3c580d7281011",
       "context": "WBTC",
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": null
+        "status": "false"
       },
       "warnings": [
-        "etherscan http 504",
-        "sourcify http 500"
+        "etherscan skipped: ETHERSCAN_API_KEY not set"
       ]
     },
     {
@@ -752,132 +694,78 @@
       "chain": "manta",
       "address": "0x0000000000000000000000000000000000000000",
       "context": "null",
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": null
+        "status": "false"
       },
       "warnings": [
-        "etherscan status=0: Missing or unsupported chainid parameter (required for v2 api), please see https://api.etherscan.io/v2/chainlist for the list of supported chainids",
-        "sourcify http 500"
+        "etherscan skipped: ETHERSCAN_API_KEY not set"
       ]
     },
     {
       "chain": "manta",
       "address": "0x34c7ad65e4163306f8745996688b476914201ce0",
       "context": null,
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": null
+        "status": "false"
       },
       "warnings": [
-        "etherscan status=0: Missing or unsupported chainid parameter (required for v2 api), please see https://api.etherscan.io/v2/chainlist for the list of supported chainids",
-        "sourcify http 500"
+        "etherscan skipped: ETHERSCAN_API_KEY not set"
       ]
     },
     {
       "chain": "manta",
       "address": "0x44a65dc12865a1e5249b45b4868f32b0e37168ff",
       "context": null,
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": null
+        "status": "false"
       },
       "warnings": [
-        "etherscan status=0: Missing or unsupported chainid parameter (required for v2 api), please see https://api.etherscan.io/v2/chainlist for the list of supported chainids",
-        "sourcify http 500"
+        "etherscan skipped: ETHERSCAN_API_KEY not set"
       ]
     },
     {
       "chain": "manta",
       "address": "0x95cef13441be50d20ca4558cc0a27b601ac544e5",
       "context": null,
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": null
+        "status": "false"
       },
       "warnings": [
-        "etherscan status=0: Missing or unsupported chainid parameter (required for v2 api), please see https://api.etherscan.io/v2/chainlist for the list of supported chainids",
-        "sourcify http 500"
+        "etherscan skipped: ETHERSCAN_API_KEY not set"
       ]
     },
     {
       "chain": "manta",
       "address": "0xbdad407f77f44f7da6684b416b1951eca461fb07",
       "context": null,
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": null
+        "status": "false"
       },
       "warnings": [
-        "etherscan status=0: Missing or unsupported chainid parameter (required for v2 api), please see https://api.etherscan.io/v2/chainlist for the list of supported chainids",
-        "sourcify http 500"
+        "etherscan skipped: ETHERSCAN_API_KEY not set"
       ]
     },
     {
       "chain": "manta",
       "address": "0xd784d7128b46b60ca7d8bdc17dcec94917455657",
       "context": null,
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": null
+        "status": "false"
       },
       "warnings": [
-        "etherscan status=0: Missing or unsupported chainid parameter (required for v2 api), please see https://api.etherscan.io/v2/chainlist for the list of supported chainids",
-        "sourcify http 500"
+        "etherscan skipped: ETHERSCAN_API_KEY not set"
       ]
     },
     {
@@ -1126,6 +1014,6 @@
     "verified_sourcify": 18,
     "proxies": 28,
     "skipped_unsupported_chain": 3,
-    "skipped_etherscan": 0
+    "skipped_etherscan": 12
   }
 }
