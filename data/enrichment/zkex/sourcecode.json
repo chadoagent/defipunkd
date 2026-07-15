@@ -1,8 +1,8 @@
 {
   "slug": "zkex",
-  "adapter_commit": "a238be25a7a40a6b3809c110a7f152218124adac",
-  "fetched_at": "2026-04-26T06:50:17.377Z",
-  "etherscan_v": "v2",
+  "adapter_commit": "683d36908b5bca5f16752d174c03d928db179af1",
+  "fetched_at": "2026-07-15T08:03:52.681Z",
+  "etherscan_v": null,
   "addresses": [
     {
       "chain": "arbitrum",
@@ -198,44 +198,28 @@
       "chain": "era",
       "address": "0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4",
       "context": "USDC",
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
         "status": null
       },
       "warnings": [
-        "etherscan http 504",
-        "sourcify http 500"
+        "etherscan skipped: ETHERSCAN_API_KEY not set",
+        "sourcify http 503"
       ]
     },
     {
       "chain": "era",
       "address": "0x46d6e42fb6e04695156b5ad38a3ec6fa9c59147d",
       "context": null,
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
         "status": null
       },
       "warnings": [
-        "etherscan http 504",
-        "sourcify http 500"
+        "etherscan skipped: ETHERSCAN_API_KEY not set",
+        "sourcify http 503"
       ]
     },
     {
@@ -464,6 +448,6 @@
     "verified_sourcify": 7,
     "proxies": 12,
     "skipped_unsupported_chain": 1,
-    "skipped_etherscan": 0
+    "skipped_etherscan": 2
   }
 }
