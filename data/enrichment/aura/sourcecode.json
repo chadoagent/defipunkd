@@ -1,8 +1,8 @@
 {
   "slug": "aura",
-  "adapter_commit": "a238be25a7a40a6b3809c110a7f152218124adac",
-  "fetched_at": "2026-04-26T02:27:38.929Z",
-  "etherscan_v": "v2",
+  "adapter_commit": "683d36908b5bca5f16752d174c03d928db179af1",
+  "fetched_at": "2026-08-05T08:26:59.743Z",
+  "etherscan_v": null,
   "addresses": [
     {
       "chain": "arbitrum",
@@ -236,42 +236,28 @@
       "chain": "polygon_zkevm",
       "address": "0x2498a2b0d6462d2260eac50ae1c3e03f4829ba95",
       "context": "factory",
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": "perfect"
+        "status": null
       },
       "warnings": [
-        "etherscan status=0: Missing or unsupported chainid parameter (required for v2 api), please see https://api.etherscan.io/v2/chainlist for the list of supported chainids"
+        "etherscan skipped: ETHERSCAN_API_KEY not set",
+        "sourcify http 503"
       ]
     },
     {
       "chain": "polygon_zkevm",
       "address": "0xc181edc719480bd089b94647c2dc504e2700a2b0",
       "context": "voterProxy",
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": "false"
+        "status": null
       },
       "warnings": [
-        "etherscan status=0: Missing or unsupported chainid parameter (required for v2 api), please see https://api.etherscan.io/v2/chainlist for the list of supported chainids"
+        "etherscan skipped: ETHERSCAN_API_KEY not set",
+        "sourcify http 503"
       ]
     },
     {
@@ -316,9 +302,9 @@
   "summary": {
     "total": 16,
     "verified_etherscan": 13,
-    "verified_sourcify": 11,
+    "verified_sourcify": 10,
     "proxies": 0,
     "skipped_unsupported_chain": 0,
-    "skipped_etherscan": 0
+    "skipped_etherscan": 2
   }
 }
