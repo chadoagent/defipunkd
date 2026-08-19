@@ -1,8 +1,8 @@
 {
   "slug": "pwn",
-  "adapter_commit": "a238be25a7a40a6b3809c110a7f152218124adac",
-  "fetched_at": "2026-04-26T05:16:58.363Z",
-  "etherscan_v": "v2",
+  "adapter_commit": "683d36908b5bca5f16752d174c03d928db179af1",
+  "fetched_at": "2026-08-19T06:37:07.778Z",
+  "etherscan_v": null,
   "addresses": [
     {
       "chain": "arbitrum",
@@ -293,63 +293,42 @@
       "chain": "cronos",
       "address": "0x4188c513fd94b0458715287570c832d9560bc08a",
       "context": "PWN_V1_1_SIMPLE_LOAN_B",
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": "perfect"
+        "status": null
       },
       "warnings": [
-        "etherscan status=0: Missing or unsupported chainid parameter (required for v2 api), please see https://api.etherscan.io/v2/chainlist for the list of supported chainids"
+        "etherscan skipped: ETHERSCAN_API_KEY not set",
+        "sourcify http 503"
       ]
     },
     {
       "chain": "cronos",
       "address": "0x719a69d0dc67bd3aa7648d4694081b3c87952797",
       "context": "PWN_V1_3_SIMPLE_LOAN",
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": "false"
+        "status": null
       },
       "warnings": [
-        "etherscan status=0: Missing or unsupported chainid parameter (required for v2 api), please see https://api.etherscan.io/v2/chainlist for the list of supported chainids"
+        "etherscan skipped: ETHERSCAN_API_KEY not set",
+        "sourcify http 503"
       ]
     },
     {
       "chain": "cronos",
       "address": "0x973e09e96e64e4bf17e383a8a497fb566284c707",
       "context": "PWN_BUNDLER_CRONOS",
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": "false"
+        "status": null
       },
       "warnings": [
-        "etherscan status=0: Missing or unsupported chainid parameter (required for v2 api), please see https://api.etherscan.io/v2/chainlist for the list of supported chainids"
+        "etherscan skipped: ETHERSCAN_API_KEY not set",
+        "sourcify http 503"
       ]
     },
     {
@@ -946,9 +925,9 @@
   "summary": {
     "total": 50,
     "verified_etherscan": 45,
-    "verified_sourcify": 30,
+    "verified_sourcify": 29,
     "proxies": 0,
     "skipped_unsupported_chain": 2,
-    "skipped_etherscan": 0
+    "skipped_etherscan": 3
   }
 }
