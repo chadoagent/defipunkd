@@ -1,8 +1,8 @@
 {
   "slug": "archly-v2",
-  "adapter_commit": "a238be25a7a40a6b3809c110a7f152218124adac",
-  "fetched_at": "2026-04-26T02:26:30.919Z",
-  "etherscan_v": "v2",
+  "adapter_commit": "683d36908b5bca5f16752d174c03d928db179af1",
+  "fetched_at": "2026-09-09T10:37:12.379Z",
+  "etherscan_v": null,
   "addresses": [
     {
       "chain": "arbitrum",
@@ -27,21 +27,14 @@
       "chain": "arbitrum_nova",
       "address": "0x66a185f87a7bc337e38ea988fc8decf2f35a28d1",
       "context": "lp",
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": "false"
+        "status": null
       },
       "warnings": [
-        "etherscan status=0: Missing or unsupported chainid parameter (required for v2 api), please see https://api.etherscan.io/v2/chainlist for the list of supported chainids"
+        "etherscan skipped: ETHERSCAN_API_KEY not set",
+        "sourcify http 404"
       ]
     },
     {
@@ -124,42 +117,28 @@
       "chain": "cronos",
       "address": "0xcf4ceea40ddeeb49cd407e32f804b22890a6dfd6",
       "context": "lp",
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": "false"
+        "status": null
       },
       "warnings": [
-        "etherscan status=0: Missing or unsupported chainid parameter (required for v2 api), please see https://api.etherscan.io/v2/chainlist for the list of supported chainids"
+        "etherscan skipped: ETHERSCAN_API_KEY not set",
+        "sourcify http 404"
       ]
     },
     {
       "chain": "fantom",
       "address": "0x263677110c07ec272f8b1fe08a473700e6777edd",
       "context": "lp",
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": "false"
+        "status": null
       },
       "warnings": [
-        "etherscan status=0: Missing or unsupported chainid parameter (required for v2 api), please see https://api.etherscan.io/v2/chainlist for the list of supported chainids"
+        "etherscan skipped: ETHERSCAN_API_KEY not set",
+        "sourcify http 404"
       ]
     },
     {
@@ -195,21 +174,14 @@
       "chain": "kava",
       "address": "0x90e267b0bf52f9993d32dfab9a415e2b00a870d0",
       "context": "lp",
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": "false"
+        "status": null
       },
       "warnings": [
-        "etherscan status=0: Missing or unsupported chainid parameter (required for v2 api), please see https://api.etherscan.io/v2/chainlist for the list of supported chainids"
+        "etherscan skipped: ETHERSCAN_API_KEY not set",
+        "sourcify http 404"
       ]
     },
     {
@@ -235,42 +207,28 @@
       "chain": "metis",
       "address": "0xa152a0ee0bc15a937d5365deb8507d063467a68d",
       "context": "lp",
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": "false"
+        "status": null
       },
       "warnings": [
-        "etherscan status=0: Missing or unsupported chainid parameter (required for v2 api), please see https://api.etherscan.io/v2/chainlist for the list of supported chainids"
+        "etherscan skipped: ETHERSCAN_API_KEY not set",
+        "sourcify http 404"
       ]
     },
     {
       "chain": "mode",
       "address": "0xc6fa6454e76cf425a020fdb1ef61feb0e551912c",
       "context": "lp",
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": "false"
+        "status": null
       },
       "warnings": [
-        "etherscan status=0: Missing or unsupported chainid parameter (required for v2 api), please see https://api.etherscan.io/v2/chainlist for the list of supported chainids"
+        "etherscan skipped: ETHERSCAN_API_KEY not set",
+        "sourcify http 404"
       ]
     },
     {
@@ -354,21 +312,14 @@
       "chain": "zora",
       "address": "0x577b2e4c7ddd23d2fa9d56b4456505e420851046",
       "context": "lp",
-      "etherscan": {
-        "fetched": true,
-        "verified": false,
-        "contract_name": null,
-        "compiler": null,
-        "optimization": false,
-        "is_proxy": false,
-        "implementation": null
-      },
+      "etherscan": null,
       "sourcify": {
         "fetched": true,
-        "status": "false"
+        "status": null
       },
       "warnings": [
-        "etherscan status=0: Missing or unsupported chainid parameter (required for v2 api), please see https://api.etherscan.io/v2/chainlist for the list of supported chainids"
+        "etherscan skipped: ETHERSCAN_API_KEY not set",
+        "sourcify http 404"
       ]
     }
   ],
@@ -378,6 +329,6 @@
     "verified_sourcify": 0,
     "proxies": 0,
     "skipped_unsupported_chain": 3,
-    "skipped_etherscan": 0
+    "skipped_etherscan": 7
   }
 }
